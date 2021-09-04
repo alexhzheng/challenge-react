@@ -1,0 +1,20 @@
+.border {
+  border: 2px solid #f1f1f1;
+  border-radius: 6px;
+  background-color: #fff;
+  padding: 1em;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.clicked {
+  background-color: #456cb3;
+  color: #ffffff;
+  border: 2px solid;
+}
+
+.border:not(.clicked):hover {
+  background-color: rgba(222, 230, 245, 0.48);
+  border: 2px solid #dae4f7;
+}
